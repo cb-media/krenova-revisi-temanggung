@@ -5699,7 +5699,6 @@ a.text-dark:focus, a.text-dark:hover {
   .footer-section a {
     color: #fff; }
 
-/*=========== Media Queries Responsive ============*/
 /* DESKTOP */
 @media (max-width: 85.375em) {
   .caption-logo {
