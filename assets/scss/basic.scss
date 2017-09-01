@@ -189,7 +189,7 @@
 /*=========== Footer ============*/
 
 .footer-section {
-    padding: 50px 20px;
+    padding: 60px 20px;
     text-align: left;
     background: #2F78F2;
     color: #fff;
@@ -226,4 +226,52 @@
             }
         }
     }
+}
+
+
+/*===================== Running Text ==========================*/
+
+
+/* CSS Document */
+
+marquee {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.runtext-container {
+    background-color: #0043A8 !important;
+    padding: 5px 0px !important;
+}
+
+.main-runtext {
+    margin: -5px auto;
+    overflow: visible;
+    position: relative;
+    height: 40px;
+}
+
+.runtext-container .holder {
+    position: relative;
+    overflow: visible;
+    display: inline;
+    float: left;
+}
+
+.runtext-container .holder .text-container {
+    display: inline;
+}
+
+.runtext-container .holder a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ECE8E8;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    line-height: -0.5em;
+    font-size: 16px;
+}
+
+.runtext-container .holder a:hover {
+    text-decoration: none;
+    color: #6399E8;
 }
