@@ -5658,7 +5658,8 @@ a.text-dark:focus, a.text-dark:hover {
     .goal-section .goal-text-container h2 {
       font-size: 1.5em; }
     .goal-section .goal-text-container ul li {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      font-size: .9em !important; }
   .goal-section .img-holder {
     background: url("../img/bg-goal.jpg") no-repeat center center;
     background-size: cover; }
@@ -5671,13 +5672,13 @@ a.text-dark:focus, a.text-dark:hover {
 
 /*=========== Testimonial Section ============*/
 .testimonials-section {
-  height: 50vh;
+  height: 50vh !important;
   background: url("../img/bg-testimonial.jpeg") no-repeat center center;
   background-size: cover; }
   .testimonials-section .testimonial-item {
     padding-top: 50px !important;
     font-size: 2.2em;
-    height: 50vh; }
+    height: 50vh !important; }
     .testimonials-section .testimonial-item .dark-overlay {
       position: absolute;
       z-index: -4;
@@ -5698,6 +5699,28 @@ a.text-dark:focus, a.text-dark:hover {
   color: #fff; }
   .footer-section a {
     color: #fff; }
+
+/*=========== Footer ============*/
+.alur-section {
+  padding-top: 120px; }
+  .alur-section #alurAccordion {
+    padding: 20px;
+    margin-bottom: 30px; }
+    .alur-section #alurAccordion .item .item-heading {
+      padding: 10px 0px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      background: #2783C7;
+      display: block;
+      color: #fff;
+      text-align: center;
+      border-bottom: 2px solid whitesmoke; }
+    .alur-section #alurAccordion .item .item-body {
+      text-align: center;
+      padding: 10px;
+      font-size: 1.2em;
+      background: rgba(237, 237, 237, 0.7); }
 
 /* DESKTOP */
 @media (max-width: 85.375em) {

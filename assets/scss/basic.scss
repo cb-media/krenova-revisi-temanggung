@@ -137,6 +137,7 @@
         ul {
             li {
                 margin-bottom: 10px;
+                font-size: .9em !important;
             }
         }
     }
@@ -157,7 +158,7 @@
 /*=========== Testimonial Section ============*/
 
 .testimonials-section {
-    height: 50vh;
+    height: 50vh !important;
     background: url('../img/bg-testimonial.jpeg') no-repeat center center;
     background-size: cover;
     .testimonial-item {
@@ -171,7 +172,7 @@
         }
         padding-top: 50px !important;
         font-size: 2.2em;
-        height: 50vh;
+        height: 50vh !important;
     }
 }
 
@@ -194,5 +195,35 @@
     color: #fff;
     a {
         color: #fff;
+    }
+}
+
+
+/*=========== Footer ============*/
+
+.alur-section {
+    padding-top: 120px;
+    #alurAccordion {
+        padding: 20px;
+        margin-bottom: 30px;
+        .item {
+            .item-heading {
+                padding: 10px 0px;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                background: #2783C7;
+                display: block;
+                color: #fff;
+                text-align: center;
+                border-bottom: 2px solid whitesmoke;
+            }
+            .item-body {
+                text-align: center;
+                padding: 10px;
+                font-size: 1.2em;
+                background: rgba(237, 237, 237, 0.70);
+            }
+        }
     }
 }
